@@ -46,7 +46,7 @@ public class LoginForm extends JFrame implements ActionListener {
         String username = txtUser.getText();
         String password = new String(txtPass.getPassword());
 
-        if (username.equals("URK24CS6005") && password.equals("04082005")) {
+        if (username.equals("URK24CS6011") && password.equals("123456")) {
             JOptionPane.showMessageDialog(this, "Login Successful!");
         } else {
             JOptionPane.showMessageDialog(this, "Login Failed!");
@@ -56,5 +56,6 @@ public class LoginForm extends JFrame implements ActionListener {
         new LoginForm();
     }
 }
+
 
 
